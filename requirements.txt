@@ -1,0 +1,80 @@
+# CORD-19 Research Analysis Project Dependencies
+# Frameworks and Libraries Assignment
+
+# Core Data Science Libraries
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.12.0
+
+# Interactive Web Framework
+streamlit>=1.28.0
+
+# Interactive Visualizations
+plotly>=5.15.0
+plotly-express>=0.4.1
+
+# Text Analysis (Optional)
+wordcloud>=1.9.0
+
+# Scientific Computing
+scipy>=1.9.0
+scikit-learn>=1.1.0
+
+# Date/Time Processing
+python-dateutil>=2.8.0
+
+# Additional Utilities
+requests>=2.28.0
+urllib3>=1.26.0
+
+# Development Tools (Optional)
+jupyter>=1.0.0
+ipykernel>=6.15.0
+notebook>=6.4.0
+
+# Data Export/Import
+openpyxl>=3.0.0
+xlsxwriter>=3.0.0
+
+# Performance and Memory
+memory-profiler>=0.60.0
+
+# Error Handling and Logging
+colorama>=0.4.0
+
+# Web Scraping (if needed for data collection)
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+
+# Configuration Management
+python-dotenv>=0.19.0
+
+# Testing (Optional)
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+# Code Quality (Optional)
+flake8>=4.0.0
+black>=22.0.0
+
+# Documentation Generation (Optional)
+sphinx>=4.5.0
+sphinx-rtd-theme>=1.0.0
+
+# Alternative Installation Commands:
+#
+# Install all dependencies:
+# pip install -r requirements.txt
+#
+# Install minimal version (core only):
+# pip install pandas numpy matplotlib seaborn streamlit plotly
+#
+# Install for development:
+# pip install -r requirements.txt
+# pip install jupyter pytest flake8 black
+#
+# Install in virtual environment:
+# python -m venv cord19_env
+# source cord19_env/bin/activate  # On Windows: cord19_env\Scripts\activate
+# pip install -r requirements.txt
